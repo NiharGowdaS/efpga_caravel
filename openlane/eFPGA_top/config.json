@@ -1,0 +1,89 @@
+{
+    "DESIGN_NAME": "user_proj_example",
+    "DESIGN_IS_CORE": 0,
+    "VERILOG_FILES": [
+        "dir::../../verilog/rtl/defines.v",
+        "dir::../../verilog/rtl/eFPGA_top.v",
+        "dir::../../verilog/rtl/bitbang.v",
+        "dir::../../verilog/rtl/BlockRAM_1KB.v",
+        "dir::../../verilog/rtl/config_UART.v",
+        "dir::../../verilog/rtl/ConfigFSM.v",
+        "dir::../../verilog/rtl/DSP_bot_tile.v",
+        "dir::../../verilog/rtl/DSP_tile",
+        "dir::../../verilog/rtl/DSP_top_tile",
+        "dir::../../verilog/rtl/eFPGA_v2_top_sky130.v",
+        "dir::../../verilog/rtl/fabric_DSP_tile.v",
+        "dir::../../verilog/rtl/Frame_Data_Reg_Pack.v",
+        "dir::../../verilog/rtl/FRame_Select_Pack.v",
+        "dir::../../verilog/rtl/LUT4AB_tile.v",
+        "dir::../../verilog/rtl/models_pack.v",
+        "dir::../../verilog/rtl/N_term_DSP_tile.v",
+        "dir::../../verilog/rtl/N_term_RAM_IO_tile.v",
+        "dir::../../verilog/rtl/N_term_single_tile.v",
+        "dir::../../verilog/rtl/N_term_single2_tile.v",
+        "dir::../../verilog/rtl/RAM_IO_tile.v",
+        "dir::../../verilog/rtl/RegFile_tile.v",
+        "dir::../../verilog/rtl/S_term_DSP_tile.v",
+        "dir::../../verilog/rtl/S_term_RAM_IO_tile.v",
+        "dir::../../verilog/rtl/S_term_single_tile.v",
+        "dir::../../verilog/rtl/S_term_single2_tile.v",
+        "dir::../../verilog/rtl/W_IO_tile.v"
+
+
+    ],
+    "CLOCK_PERIOD": 25,
+    "CLOCK_PORT": "wb_clk_i",
+    "CLOCK_NET": "counter.clk",
+    "FP_SIZING": "absolute",
+    "DIE_AREA": "0 0 2800 3000",
+    "FP_PIN_ORDER_CFG": "dir::pin_order.cfg",
+    "MAX_TRANSITION_CONSTRAINT": 1.0,
+    "MAX_FANOUT_CONSTRAINT": 16,
+    "PL_TARGET_DENSITY": 0.55,
+    "PL_RESIZER_SETUP_SLACK_MARGIN": 0.4,
+    "GLB_RESIZER_SETUP_SLACK_MARGIN": 0.2,
+    "GLB_RESIZER_HOLD_SLACK_MARGIN": 0.2,
+    "PL_RESIZER_HOLD_SLACK_MARGIN": 0.4,
+    "MAGIC_DEF_LABELS": 0,
+    "SYNTH_BUFFERING": 0,
+    "RUN_HEURISTIC_DIODE_INSERTION": 1,
+    "HEURISTIC_ANTENNA_THRESHOLD": 110,    
+    "GRT_REPAIR_ANTENNAS": 1,
+    "VDD_NETS": [
+        "vccd1"
+    ],
+    "GND_NETS": [
+        "vssd1"
+    ],
+    "IO_SYNC": 0,
+    "BASE_SDC_FILE": "dir::base_eFPGA_top.sdc",
+    "RUN_CVC": 1,
+    "pdk::sky130*": {
+        "FP_CORE_UTIL": 45,
+        "RT_MAX_LAYER": "met4",
+        "scl::sky130_fd_sc_hd": {
+            "CLOCK_PERIOD": 25
+        },
+        "scl::sky130_fd_sc_hdll": {
+            "CLOCK_PERIOD": 10
+        },
+        "scl::sky130_fd_sc_hs": {
+            "CLOCK_PERIOD": 8
+        },
+        "scl::sky130_fd_sc_ls": {
+            "CLOCK_PERIOD": 10,
+            "SYNTH_MAX_FANOUT": 5
+        },
+        "scl::sky130_fd_sc_ms": {
+            "CLOCK_PERIOD": 10
+        }
+    },
+    "pdk::gf180mcuC": {
+        "STD_CELL_LIBRARY": "gf180mcu_fd_sc_mcu7t5v0",
+        "CLOCK_PERIOD": 24.0,
+        "FP_CORE_UTIL": 40,
+        "RT_MAX_LAYER": "Metal4",
+        "SYNTH_MAX_FANOUT": 4,
+        "PL_TARGET_DENSITY": 0.45
+    }
+}
