@@ -2,32 +2,7 @@
     "DESIGN_NAME": "eFPGA_v2_top_sky130",
     "DESIGN_IS_CORE": 0,
     "VERILOG_FILES": [
-        "dir::../../verilog/rtl/defines.v",
-        "dir::../../verilog/rtl/eFPGA_top.v",
-        "dir::../../verilog/rtl/bitbang.v",
-        "dir::../../verilog/rtl/BlockRAM_1KB.v",
-        "dir::../../verilog/rtl/config_UART.v",
-        "dir::../../verilog/rtl/ConfigFSM.v",
-        "dir::../../verilog/rtl/DSP_bot_tile.v",
-        "dir::../../verilog/rtl/DSP_tile",
-        "dir::../../verilog/rtl/DSP_top_tile",
-        "dir::../../verilog/rtl/eFPGA_v2_top_sky130.v",
-        "dir::../../verilog/rtl/fabric_DSP_tile.v",
-        "dir::../../verilog/rtl/Frame_Data_Reg_Pack.v",
-        "dir::../../verilog/rtl/FRame_Select_Pack.v",
-        "dir::../../verilog/rtl/LUT4AB_tile.v",
-        "dir::../../verilog/rtl/models_pack.v",
-        "dir::../../verilog/rtl/N_term_DSP_tile.v",
-        "dir::../../verilog/rtl/N_term_RAM_IO_tile.v",
-        "dir::../../verilog/rtl/N_term_single_tile.v",
-        "dir::../../verilog/rtl/N_term_single2_tile.v",
-        "dir::../../verilog/rtl/RAM_IO_tile.v",
-        "dir::../../verilog/rtl/RegFile_tile.v",
-        "dir::../../verilog/rtl/S_term_DSP_tile.v",
-        "dir::../../verilog/rtl/S_term_RAM_IO_tile.v",
-        "dir::../../verilog/rtl/S_term_single_tile.v",
-        "dir::../../verilog/rtl/S_term_single2_tile.v",
-        "dir::../../verilog/rtl/W_IO_tile.v"
+        "dir::../../verilog/rtl/defines.v"
 
 
     ],
